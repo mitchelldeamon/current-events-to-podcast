@@ -29,33 +29,36 @@ shareable link that is then sent to a Discord channel via a webhook.
 ### 1. Clone the Repository
 
 Clone the repository to your local machine:
-git clone [HTTPS](https://github.com/mitchelldeamon/current-events-to-podcast.git) or SSH then
-cd current_events_to_podcast
+git clone [HTTPS](https://github.com/mitchelldeamon/current-events-to-podcast.git) or SSH.
+
+`cd current_events_to_podcast`
 
 ### 2. Create a Virtual Environment
 
-It is recommended to use a virtual environment:
-python -m venv .venv
+It is recommended to use a virtual environment: `python -m venv .venv`
 
 Activate the virtual environment:
 
-- On Windows:
-  .venv\Scripts\activate
-- On macOS/Linux:
-  source .venv/bin/activate
+- On Windows: `.venv\Scripts\activate`
+- On macOS/Linux: `source .venv/bin/activate`
 
 ### 3. Install the Requirements
 
 Install the required dependencies using the `requirements.txt` file:
-pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 
 ### 4. Set Up Environment Variables
 
 Create a `.env` file in the project directory to store your environment variables:
-EMAIL=your_google_email
-PASSWORD=your_google_password
-DISCORD_WEBHOOK_URL=your_discord_webhook_url
-DISCORD_TAG=@your_discord_tag
+
+`EMAIL=your_google_email`
+
+`PASSWORD=your_google_password`
+
+`DISCORD_WEBHOOK_URL=your_discord_webhook_url`
+
+`DISCORD_TAG=@your_discord_tag`
 
 - Replace `your_google_email` with your Google email address.
 - Replace `your_google_password` with your Google password.
