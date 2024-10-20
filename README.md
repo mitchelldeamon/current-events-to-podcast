@@ -26,11 +26,11 @@ shareable link that is then sent to a Discord channel via a webhook.
 
 ## Setup
 
-### 1. Clone the Repository (Optional)
+### 1. Clone the Repository
 
 Clone the repository to your local machine:
 git clone git@github.com:mitchelldeamon/current-events-to-podcast.git
-cd current-events-to-podcast
+cd current_events_to_podcast
 
 ### 2. Create a Virtual Environment
 
@@ -60,7 +60,7 @@ DISCORD_TAG=@your_discord_tag
 - Replace `your_google_email` with your Google email address.
 - Replace `your_google_password` with your Google password.
 - Replace `your_discord_webhook_url` with the Discord webhook URL.
-- Replace `@your_discord_tag` with your Discord tag (optional).
+- Replace `@your_discord_tag` with your Discord tag.
 
 ### 5. Verify ChromeDriver Installation
 
