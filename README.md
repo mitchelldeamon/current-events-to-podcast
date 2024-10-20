@@ -29,7 +29,8 @@ shareable link that is then sent to a Discord channel via a webhook.
 ### 1. Clone the Repository
 
 Clone the repository to your local machine:
-git clone [HTTPS](https://github.com/mitchelldeamon/current-events-to-podcast.git) or SSH.
+
+`git clone https://github.com/mitchelldeamon/current-events-to-podcast.git` or `git clone git@github.com:mitchelldeamon/current-events-to-podcast.git`
 
 `cd current_events_to_podcast`
 
