@@ -6,14 +6,13 @@ shareable link that is then sent to a Discord channel via a webhook.
 
 ## Table of Contents
 
-- Prerequisites
-- Setup
-- Configuration
-- How to Run
-- How It Works
-- Troubleshooting
-- Additional Notes
-- License
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [How to Run](#how-to-run)
+- [How It Works](#how-it-works)
+- [Troubleshooting](#troubleshooting)
+- [Additional Notes](#additional-notes)
+- [License](#license)
 
 ## Prerequisites
 
@@ -119,6 +118,6 @@ python <current_events_to_podcast>.py
 - Security: Avoid sharing your `.env` file publicly, as it contains sensitive information.
 - Discord Rate Limits: Be aware that Discord may impose rate limits on the webhook if used frequently.
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
