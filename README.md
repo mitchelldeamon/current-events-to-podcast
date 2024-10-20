@@ -70,8 +70,7 @@ pip install undetected-chromedriver
 ## How to Run
 
 To run the automation script, execute the following command:
-python <script_name>.py
-Replace `<script_name>` with the name of the Python script containing the code.
+python <current_events_to_podcast>.py
 
 ## How It Works
 
